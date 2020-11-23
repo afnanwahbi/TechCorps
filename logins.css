@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+    background: darkolivegreen;
+
+}
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: steelblue;
+    text-align: center;
+}
+
+.box h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid gold;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: wheat;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: sienna;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid sienna;
+    padding: 14px 40px;
+    outline: none;
+    color: wheat;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input [type = "submit"]:hover{
+    background: sienna;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://image.freepik.com/free-vector/abstract-secure-technology-wallpaper_23-2148338394.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+@media (max-width: 720px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 720px) and (max-width: 992px;){
+    .container {
+      width: 50%;
+    }
+  }
+  

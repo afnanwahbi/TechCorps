@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(11, 21, 31);
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: wheat;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Castellar';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-family: 'Magneto';
+    font: initial;
+    
+}
+
+.navigation{
+    float: right;
+    
+
+}
+
+.navigation a{
+    line-height: 84px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color:wheat;
+    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: wheat;
+    font-family: 'Elephant';
+    font-size: 16px;
+    transition: transform 0.5s;
+    
+}
+
+.Login:hover{
+    transform: translateY(-10px);
+}
+.Forum:hover{
+    transform: translateY(-10px);
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://image.freepik.com/free-vector/abstract-secure-technology-wallpaper_23-2148338394.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;    
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1{
+    color: lawngreen;
+    font-size: 50px;
+}
+
+p{
+    color: mediumspringgreen;
+    font-size: 100%;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: gold;
+    font-size: 12px;
+    padding: 12px 0;
+    background: green;
+    border: 0;
+    border-radius: 20px;
+    outline: aqua;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+
+button a{
+    width: 180px;
+    color: gold;
+    font-size: 12px;
+    padding: 12px 0;
+    background: green;
+    border: 0;
+    border-radius: 20px;
+    outline: aqua;
+    margin-top: 30px;
+    transition: transform 0.5s;
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
+
+.card {
+    width: 100%;
+    height: 230px;
+    border-radius: 15px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 100px 15px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.beritasatu.com/cache/beritasatu/600x350-2/1592556565.jpg);
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+footer{
+    position: absolute;
+    bottom: -200;
+    left: 0;
+    right: 0;
+    top: 700;
+    background-color: black;
+    height: auto;
+    width: 100vw;
+    font-family: 'Gabriola';
+    padding-top: 10px;
+    color: blanchedalmond;
+    text-align: center;
+  
+
+}
+.footerbot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footerbot h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footerbot p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footerbot{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footerbot p{
+    font-size: 20px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.footerbot span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+@media (max-width: 720px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 720px) and (max-width: 992px;){
+    .container {
+      width: 50%;
+    }
+  }
+  
